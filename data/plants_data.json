@@ -1,0 +1,258 @@
+{
+  "Tulsi": {
+    "scientific_name": "Ocimum tenuiflorum",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "description": "An aromatic shrub native to the Indian subcontinent, widely grown in households and considered sacred in Indian tradition. Recognized by its fragrant green or purple leaves.",
+    "parts_used": ["Leaves", "Seeds"],
+    "traditional_uses": [
+      "Commonly used in Indian traditional medicine",
+      "Respiratory comfort (traditionally used in herbal teas)",
+      "Digestive support",
+      "General wellness and immunity support"
+    ],
+    "precautions": [
+      "May interact with blood-thinning or diabetes medication",
+      "Not confirmed safe in medicinal doses during pregnancy",
+      "Consult a qualified practitioner before regular consumption"
+    ]
+  },
+  "Neem": {
+    "scientific_name": "Azadirachta indica",
+    "family": "Meliaceae",
+    "category": "Tree",
+    "description": "A fast-growing tree with bitter-tasting compound leaves, widely used in traditional skincare and pest-control practices across South Asia.",
+    "parts_used": ["Leaves", "Bark", "Seeds"],
+    "traditional_uses": [
+      "Traditionally applied for skin comfort",
+      "Used in oral care preparations (neem twigs)",
+      "Reported use as a natural pest deterrent"
+    ],
+    "precautions": [
+      "Neem oil/seed extracts are toxic if ingested, especially by children",
+      "Not recommended during pregnancy or breastfeeding",
+      "Avoid prolonged undiluted skin contact"
+    ]
+  },
+  "Aloe Vera": {
+    "scientific_name": "Aloe barbadensis miller",
+    "family": "Asphodelaceae",
+    "category": "Succulent",
+    "description": "A succulent plant with thick, fleshy, serrated leaves containing a clear gel, popular in skincare and traditional remedies.",
+    "parts_used": ["Leaf gel"],
+    "traditional_uses": [
+      "Traditionally applied on skin for soothing comfort",
+      "Used in traditional preparations for minor burns",
+      "Reported use in hair-care formulations"
+    ],
+    "precautions": [
+      "Oral consumption of aloe latex may cause digestive upset",
+      "Perform a patch test before topical use",
+      "Avoid ingestion without professional guidance"
+    ]
+  },
+  "Ashwagandha": {
+    "scientific_name": "Withania somnifera",
+    "family": "Solanaceae",
+    "category": "Shrub",
+    "description": "A small shrub with oval leaves and yellow flowers; its root is a well-known ingredient in traditional Ayurvedic formulations.",
+    "parts_used": ["Root", "Leaves"],
+    "traditional_uses": [
+      "Traditionally used to support stress resilience",
+      "Reported use for general vitality and energy",
+      "Used in traditional sleep-support formulations"
+    ],
+    "precautions": [
+      "May affect thyroid hormone levels",
+      "Not recommended during pregnancy",
+      "May interact with sedatives and immunosuppressants"
+    ]
+  },
+  "Turmeric": {
+    "scientific_name": "Curcuma longa",
+    "family": "Zingiberaceae",
+    "category": "Herb",
+    "description": "A rhizomatous herbaceous plant whose bright yellow-orange root is a staple in South Asian cooking and traditional medicine.",
+    "parts_used": ["Rhizome (root)"],
+    "traditional_uses": [
+      "Widely used as a culinary spice",
+      "Traditionally applied for skin comfort",
+      "Reported use for general wellness and digestive support"
+    ],
+    "precautions": [
+      "High doses may cause digestive discomfort",
+      "May increase bleeding risk with anticoagulants",
+      "Use caution if prone to kidney stones"
+    ]
+  },
+  "Ginger": {
+    "scientific_name": "Zingiber officinale",
+    "family": "Zingiberaceae",
+    "category": "Herb",
+    "description": "A flowering plant whose aromatic rhizome is used extensively as a spice and in traditional remedies for digestive comfort.",
+    "parts_used": ["Rhizome (root)"],
+    "traditional_uses": [
+      "Traditionally used for digestive and nausea comfort",
+      "Common ingredient in herbal teas",
+      "Reported use for general warmth/circulation support"
+    ],
+    "precautions": [
+      "May interact with blood-thinning medication",
+      "High doses may cause heartburn",
+      "Consult a doctor before use in gallstone conditions"
+    ]
+  },
+  "Amla": {
+    "scientific_name": "Phyllanthus emblica",
+    "family": "Phyllanthaceae",
+    "category": "Tree",
+    "description": "Also known as Indian gooseberry, a small to medium tree bearing round, green, sour fruit rich in traditional nutritional reputation.",
+    "parts_used": ["Fruit"],
+    "traditional_uses": [
+      "Traditionally valued as a source of Vitamin C",
+      "Reported use in hair-care formulations",
+      "Used in traditional digestive tonics"
+    ],
+    "precautions": [
+      "May lower blood sugar levels",
+      "Use caution alongside diabetes medication",
+      "Excess consumption may cause acidity in sensitive individuals"
+    ]
+  },
+  "Giloy": {
+    "scientific_name": "Tinospora cordifolia",
+    "family": "Menispermaceae",
+    "category": "Climber",
+    "description": "A climbing shrub with heart-shaped leaves, commonly used in traditional Indian medicine and known for its bitter stem.",
+    "parts_used": ["Stem", "Leaves"],
+    "traditional_uses": [
+      "Traditionally used for general immunity support",
+      "Reported use during recovery from common ailments",
+      "Used in traditional fever-management formulations"
+    ],
+    "precautions": [
+      "May lower blood sugar - caution with diabetes medication",
+      "Not well-studied for long-term/high-dose safety",
+      "Avoid self-medicating for serious illness"
+    ]
+  },
+  "Mint": {
+    "scientific_name": "Mentha spp.",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "description": "A fast-spreading aromatic herb with serrated leaves and a cooling flavor, commonly used in food and traditional remedies.",
+    "parts_used": ["Leaves"],
+    "traditional_uses": [
+      "Traditionally used for digestive comfort",
+      "Common flavoring in herbal teas and food",
+      "Reported use for freshening breath"
+    ],
+    "precautions": [
+      "Undiluted mint oil can irritate skin and mucous membranes",
+      "May worsen acid reflux in some individuals",
+      "Use caution giving mint oil to infants"
+    ]
+  },
+  "Lemongrass": {
+    "scientific_name": "Cymbopogon citratus",
+    "family": "Poaceae",
+    "category": "Grass",
+    "description": "A tall, tufted tropical grass with a citrus aroma, widely used in cooking, teas, and traditional remedies.",
+    "parts_used": ["Leaves", "Stalk"],
+    "traditional_uses": [
+      "Commonly brewed as an herbal tea",
+      "Traditionally reported for digestive comfort",
+      "Used in traditional aromatic preparations"
+    ],
+    "precautions": [
+      "Essential oil should not be taken undiluted",
+      "May cause skin irritation in concentrated form",
+      "Limited safety data for pregnancy - use caution"
+    ]
+  },
+  "Moringa": {
+    "scientific_name": "Moringa oleifera",
+    "family": "Moringaceae",
+    "category": "Tree",
+    "description": "Known as the 'drumstick tree', a fast-growing tree with small round leaves valued for its nutrient-dense leaves and pods.",
+    "parts_used": ["Leaves", "Pods", "Seeds"],
+    "traditional_uses": [
+      "Traditionally valued as a nutrient-rich food source",
+      "Reported use for general wellness support",
+      "Used in traditional formulations for energy"
+    ],
+    "precautions": [
+      "Root and bark extracts may be unsafe - avoid without guidance",
+      "May lower blood sugar and blood pressure",
+      "Use caution during pregnancy"
+    ]
+  },
+  "Brahmi": {
+    "scientific_name": "Bacopa monnieri",
+    "family": "Plantaginaceae",
+    "category": "Herb",
+    "description": "A small creeping herb that thrives in wet, marshy areas, with succulent oblong leaves used in traditional cognitive-support formulations.",
+    "parts_used": ["Leaves", "Whole plant"],
+    "traditional_uses": [
+      "Traditionally used to support memory and focus",
+      "Reported use in traditional relaxation formulations",
+      "Used in traditional hair-care oils"
+    ],
+    "precautions": [
+      "May cause digestive upset in some individuals",
+      "May interact with thyroid or sedative medication",
+      "Effects may take weeks of consistent traditional use to notice"
+    ]
+  },
+  "Arjuna": {
+    "scientific_name": "Terminalia arjuna",
+    "family": "Combretaceae",
+    "category": "Tree",
+    "description": "A large evergreen tree with a distinctive smooth, grey bark that peels in flakes; the bark is prominent in traditional heart-health formulations.",
+    "parts_used": ["Bark"],
+    "traditional_uses": [
+      "Traditionally used in heart-health-related formulations",
+      "Reported use for general cardiovascular wellness support",
+      "Used in traditional preparations for stamina"
+    ],
+    "precautions": [
+      "Not a substitute for prescribed heart medication",
+      "May interact with blood pressure or heart medications",
+      "Consult a cardiologist before use if you have a heart condition"
+    ]
+  },
+  "Curry Leaf": {
+    "scientific_name": "Murraya koenigii",
+    "family": "Rutaceae",
+    "category": "Tree",
+    "description": "A small tree/shrub with aromatic compound leaves widely used as a flavoring agent in South Asian cuisine.",
+    "parts_used": ["Leaves"],
+    "traditional_uses": [
+      "Widely used as a culinary flavoring herb",
+      "Traditionally reported use for digestive support",
+      "Used in traditional hair-care preparations"
+    ],
+    "precautions": [
+      "Generally regarded as safe in culinary amounts",
+      "High medicinal doses not well studied",
+      "Consult a practitioner before therapeutic use"
+    ]
+  },
+  "Shatavari": {
+    "scientific_name": "Asparagus racemosus",
+    "family": "Asparagaceae",
+    "category": "Climber",
+    "description": "A climbing, thorny plant with needle-like leaves and tuberous roots, traditionally significant in women's wellness formulations.",
+    "parts_used": ["Root"],
+    "traditional_uses": [
+      "Traditionally used in women's wellness formulations",
+      "Reported use for general vitality support",
+      "Used in traditional digestive tonics"
+    ],
+    "precautions": [
+      "May interact with hormone-related medication",
+      "Avoid in individuals allergic to asparagus",
+      "Consult a practitioner before use during pregnancy or breastfeeding"
+    ]
+  }
+}

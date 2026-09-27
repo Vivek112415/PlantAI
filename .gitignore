@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+model/plant_model.h5
+dataset/*/*.jpg
+dataset/*/*.jpeg
+dataset/*/*.png

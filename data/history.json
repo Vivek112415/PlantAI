@@ -1,0 +1,338 @@
+[
+  {
+    "timestamp": "2026-09-25 21:42:59",
+    "image_name": "images (6).jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Tulsi/images (6).jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.01
+  },
+  {
+    "timestamp": "2026-09-27 12:17:51",
+    "image_name": "6.jpg",
+    "image_path": "D:/moringa plant/6.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.0
+  },
+  {
+    "timestamp": "2026-09-27 12:18:26",
+    "image_name": "17.jpg",
+    "image_path": "D:/moringa plant/17.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.01
+  },
+  {
+    "timestamp": "2026-09-27 12:18:43",
+    "image_name": "4.jpg",
+    "image_path": "D:/Mint plant/4.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.0
+  },
+  {
+    "timestamp": "2026-09-27 12:19:14",
+    "image_name": "12.jpeg",
+    "image_path": "D:/tulsi photo/12.jpeg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.01
+  },
+  {
+    "timestamp": "2026-09-27 12:19:49",
+    "image_name": "5.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/5.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.01
+  },
+  {
+    "timestamp": "2026-09-27 12:20:13",
+    "image_name": "16.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/16.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 7.07
+  },
+  {
+    "timestamp": "2026-09-27 12:20:37",
+    "image_name": "18.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/18.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.09
+  },
+  {
+    "timestamp": "2026-09-27 12:20:54",
+    "image_name": "13.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/13.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 7.05
+  },
+  {
+    "timestamp": "2026-09-27 12:21:47",
+    "image_name": "13.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/13.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 6.97
+  },
+  {
+    "timestamp": "2026-09-27 12:32:51",
+    "image_name": "19.jpg",
+    "image_path": "D:/Neem leves/19.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 6.99
+  },
+  {
+    "timestamp": "2026-09-27 12:33:11",
+    "image_name": "3.jpg",
+    "image_path": "D:/Neem leves/3.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 6.97
+  },
+  {
+    "timestamp": "2026-09-27 12:33:22",
+    "image_name": "1.jpg",
+    "image_path": "D:/Neem leves/1.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 6.98
+  },
+  {
+    "timestamp": "2026-09-27 12:33:37",
+    "image_name": "10.jpg",
+    "image_path": "D:/Neem leves/10.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 6.99
+  },
+  {
+    "timestamp": "2026-09-27 12:33:58",
+    "image_name": "2.jpg",
+    "image_path": "D:/shatavari/2.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:34:11",
+    "image_name": "12.jpg",
+    "image_path": "D:/shatavari/12.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:34:13",
+    "image_name": "12.jpg",
+    "image_path": "D:/shatavari/12.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:34:14",
+    "image_name": "12.jpg",
+    "image_path": "D:/shatavari/12.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:34:14",
+    "image_name": "12.jpg",
+    "image_path": "D:/shatavari/12.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:39:47",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Aloe Vera/1.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.0
+  },
+  {
+    "timestamp": "2026-09-27 12:39:58",
+    "image_name": "3.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Aloe Vera/3.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 7.02
+  },
+  {
+    "timestamp": "2026-09-27 12:55:54",
+    "image_name": "2.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Aloe Vera/2.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 8.06
+  },
+  {
+    "timestamp": "2026-09-27 12:56:15",
+    "image_name": "12.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/12.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 9.05
+  },
+  {
+    "timestamp": "2026-09-27 12:56:30",
+    "image_name": "18.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Amla/18.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 10.84
+  },
+  {
+    "timestamp": "2026-09-27 12:56:49",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Arjuna/1.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 8.46
+  },
+  {
+    "timestamp": "2026-09-27 12:57:07",
+    "image_name": "2.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Arjuna/2.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 9.43
+  },
+  {
+    "timestamp": "2026-09-27 12:57:22",
+    "image_name": "16.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Arjuna/16.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 8.3
+  },
+  {
+    "timestamp": "2026-09-27 12:57:43",
+    "image_name": "2.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Brahmi/2.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 8.37
+  },
+  {
+    "timestamp": "2026-09-27 12:57:46",
+    "image_name": "2.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Brahmi/2.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 8.37
+  },
+  {
+    "timestamp": "2026-09-27 13:00:08",
+    "image_name": "5.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Giloy/5.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 8.8
+  },
+  {
+    "timestamp": "2026-09-27 13:00:21",
+    "image_name": "3.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Giloy/3.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 10.03
+  },
+  {
+    "timestamp": "2026-09-27 13:00:39",
+    "image_name": "14.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Giloy/14.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 10.4
+  },
+  {
+    "timestamp": "2026-09-27 13:00:52",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Ashwagandha/1.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 8.98
+  },
+  {
+    "timestamp": "2026-09-27 13:01:00",
+    "image_name": "6.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Ashwagandha/6.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 9.33
+  },
+  {
+    "timestamp": "2026-09-27 13:13:57",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Ashwagandha/1.jpg",
+    "predicted_plant": "Amla",
+    "confidence": 21.08
+  },
+  {
+    "timestamp": "2026-09-27 13:14:12",
+    "image_name": "14.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Ashwagandha/14.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 32.17
+  },
+  {
+    "timestamp": "2026-09-27 13:14:24",
+    "image_name": "13.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Ashwagandha/13.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 83.25
+  },
+  {
+    "timestamp": "2026-09-27 13:14:37",
+    "image_name": "2.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Mint/2.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 47.83
+  },
+  {
+    "timestamp": "2026-09-27 13:14:46",
+    "image_name": "14.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Mint/14.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 90.82
+  },
+  {
+    "timestamp": "2026-09-27 13:14:56",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/1.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 84.95
+  },
+  {
+    "timestamp": "2026-09-27 13:14:58",
+    "image_name": "1.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/1.jpg",
+    "predicted_plant": "Ashwagandha",
+    "confidence": 84.95
+  },
+  {
+    "timestamp": "2026-09-27 13:15:06",
+    "image_name": "3.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/3.jpg",
+    "predicted_plant": "Neem",
+    "confidence": 33.45
+  },
+  {
+    "timestamp": "2026-09-27 13:15:15",
+    "image_name": "13.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/13.jpg",
+    "predicted_plant": "Neem",
+    "confidence": 72.53
+  },
+  {
+    "timestamp": "2026-09-27 13:15:25",
+    "image_name": "13.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Neem/13.jpg",
+    "predicted_plant": "Neem",
+    "confidence": 72.53
+  },
+  {
+    "timestamp": "2026-09-27 13:15:38",
+    "image_name": "15.jpg",
+    "image_path": "D:/PlantAI/PlantAI/dataset/Aloe Vera/15.jpg",
+    "predicted_plant": "Aloe Vera",
+    "confidence": 84.12
+  },
+  {
+    "timestamp": "2026-09-27 19:39:36",
+    "image_name": "6.jpg",
+    "image_path": "D:/Neem leves/6.jpg",
+    "predicted_plant": "Neem",
+    "confidence": 86.79
+  },
+  {
+    "timestamp": "2026-09-27 19:52:19",
+    "image_name": "19.jpg",
+    "image_path": "D:/Neem leves/19.jpg",
+    "predicted_plant": "Curry Leaf",
+    "confidence": 27.86
+  },
+  {
+    "timestamp": "2026-09-27 19:52:28",
+    "image_name": "2.jpg",
+    "image_path": "D:/Neem leves/2.jpg",
+    "predicted_plant": "Neem",
+    "confidence": 61.77
+  }
+]
