@@ -334,5 +334,47 @@
     "image_path": "D:/Neem leves/2.jpg",
     "predicted_plant": "Neem",
     "confidence": 61.77
+  },
+  {
+    "timestamp": "2026-09-29 09:49:53",
+    "image_name": "1.jpg",
+    "image_path": "D:/Ginger plant/1.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 62.69
+  },
+  {
+    "timestamp": "2026-09-29 09:49:54",
+    "image_name": "1.jpg",
+    "image_path": "D:/Ginger plant/1.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 62.69
+  },
+  {
+    "timestamp": "2026-09-29 10:06:58",
+    "image_name": "6.jpg",
+    "image_path": "D:/Ginger plant/6.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 97.15
+  },
+  {
+    "timestamp": "2026-09-29 10:06:58",
+    "image_name": "6.jpg",
+    "image_path": "D:/Ginger plant/6.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 97.15
+  },
+  {
+    "timestamp": "2026-10-01 10:43:52",
+    "image_name": "5.jpg",
+    "image_path": "D:/Ginger plant/5.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 89.28
+  },
+  {
+    "timestamp": "2026-10-01 10:43:53",
+    "image_name": "5.jpg",
+    "image_path": "D:/Ginger plant/5.jpg",
+    "predicted_plant": "Ginger",
+    "confidence": 89.28
   }
 ]

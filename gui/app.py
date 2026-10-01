@@ -225,7 +225,7 @@ class PlantAIApp:
         self.result_title.configure(text=f"Detected: {plant_name}"
                                      + (f"  ({info['scientific_name']})" if info else ""))
         self.confidence_lbl.configure(text=f"{result['confidence']:.1f}% confidence")
-        self._set_details_text(self._format_plant_details(info, result))
+        self._render_plant_details(self.details_text, info, result)
         self._update_fav_button(plant_name)
 
         record = self.db.add_history(
@@ -236,34 +236,67 @@ class PlantAIApp:
         )
         self._last_record = record
 
-    def _format_plant_details(self, info, result):
-        lines = []
+    def _format_plant_segments(self, info, result):
+        """
+        Builds a list of (text, tag) pairs describing a plant, so each
+        field can be rendered with its own style (bold labels, section
+        headings, a highlighted safety section, etc.) instead of one
+        plain block of text.
+        """
+        segments = []
         if result.get("top3") and len(result["top3"]) > 1:
             alt = ", ".join(f"{n} ({c:.1f}%)" for n, c in result["top3"][1:])
-            lines.append(f"Other possibilities: {alt}\n")
+            segments.append(("Other possibilities: ", "label"))
+            segments.append((f"{alt}\n\n", None))
 
         if not info:
-            lines.append("No reference details found in the local plant database for this class.")
-            return "\n".join(lines)
+            segments.append(("No reference details found in the local plant database "
+                              "for this class.\n", None))
+            return segments
 
-        lines.append(f"Family: {info.get('family', '-')}    Category: {info.get('category', '-')}")
-        lines.append(f"Parts commonly used: {', '.join(info.get('parts_used', []))}")
-        lines.append("")
-        lines.append("Description:")
-        lines.append(info.get("description", "-"))
-        lines.append("")
-        lines.append("Traditional / commonly discussed uses:")
+        segments.append(("Family: ", "label"))
+        segments.append((f"{info.get('family', '-')}\n", None))
+        segments.append(("Category: ", "label"))
+        segments.append((f"{info.get('category', '-')}\n", None))
+        segments.append(("Parts commonly used: ", "label"))
+        segments.append((f"{', '.join(info.get('parts_used', []))}\n\n", None))
+
+        segments.append(("Description\n", "section"))
+        segments.append((f"{info.get('description', '-')}\n\n", None))
+
+        segments.append(("Traditional / Commonly Discussed Uses\n", "section"))
         for u in info.get("traditional_uses", []):
-            lines.append(f"  \u2022 {u}")
-        lines.append("")
-        lines.append("\u26A0 Safety & Precautions:")
+            segments.append((f"  \u2022 {u}\n", None))
+        segments.append(("\n", None))
+
+        segments.append(("\u26A0 Safety & Precautions\n", "warn_section"))
         for p in info.get("precautions", []):
-            lines.append(f"  \u2022 {p}")
-        lines.append("")
-        lines.append("Note: AI identification does not confirm a plant is safe to "
-                      "consume or suitable for treating any condition. Consult a "
-                      "qualified professional before medicinal use.")
-        return "\n".join(lines)
+            segments.append((f"  \u2022 {p}\n", None))
+        segments.append(("\n", None))
+
+        segments.append(("Note: ", "label"))
+        segments.append(("AI identification does not confirm a plant is safe to consume "
+                          "or suitable for treating any condition. Consult a qualified "
+                          "professional before medicinal use.", "note"))
+        return segments
+
+    def _render_plant_details(self, text_widget, info, result):
+        """Renders _format_plant_segments() into any Text widget with styled tags."""
+        text_widget.tag_configure("label", font=("Segoe UI", 10, "bold"))
+        text_widget.tag_configure("section", font=("Segoe UI", 11, "bold"),
+                                   foreground="#1b5e20", spacing1=8, spacing3=2)
+        text_widget.tag_configure("warn_section", font=("Segoe UI", 11, "bold"),
+                                   foreground="#c9750a", spacing1=8, spacing3=2)
+        text_widget.tag_configure("note", font=("Segoe UI", 9, "italic"), foreground="#5a6b5a")
+
+        text_widget.configure(state="normal")
+        text_widget.delete("1.0", "end")
+        for text, tag in self._format_plant_segments(info, result):
+            if tag:
+                text_widget.insert("end", text, tag)
+            else:
+                text_widget.insert("end", text)
+        text_widget.configure(state="disabled")
 
     def _update_fav_button(self, plant_name):
         is_fav = self.db.is_favorite(plant_name)
@@ -366,13 +399,7 @@ class PlantAIApp:
         self.lib_title.configure(text=f"{name}  ({info.get('scientific_name', '-')})")
         self.lib_fav_btn.configure(
             text="\u2B50 Remove Favorite" if self.db.is_favorite(name) else "\u2B50 Add to Favorites")
-        self._set_lib_text(self._format_plant_details(info, {"top3": []}))
-
-    def _set_lib_text(self, text):
-        self.lib_text.configure(state="normal")
-        self.lib_text.delete("1.0", "end")
-        self.lib_text.insert("1.0", text)
-        self.lib_text.configure(state="disabled")
+        self._render_plant_details(self.lib_text, info, {"top3": []})
 
     def _on_library_toggle_favorite(self):
         if not self._selected_library_plant:
@@ -483,10 +510,7 @@ class PlantAIApp:
         name = self.fav_list.get(selection[0])
         info = self.db.get_plant(name)
         self.fav_title.configure(text=f"{name}  ({info.get('scientific_name', '-') if info else '-'})")
-        self.fav_text.configure(state="normal")
-        self.fav_text.delete("1.0", "end")
-        self.fav_text.insert("1.0", self._format_plant_details(info, {"top3": []}))
-        self.fav_text.configure(state="disabled")
+        self._render_plant_details(self.fav_text, info, {"top3": []})
 
     # ------------------------------------------------------------------
     # TAB 5: Statistics

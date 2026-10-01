@@ -1,0 +1,29 @@
+============================================================
+PlantAI - Recognition Report
+============================================================
+Date/Time      : 2026-09-29 10:06:58
+Image File     : 6.jpg
+Predicted Plant: Ginger
+Confidence     : 97.15%
+------------------------------------------------------------
+Scientific Name : Zingiber officinale
+Family          : Zingiberaceae
+Category        : Herb
+Parts Used      : Rhizome (root)
+
+Description:
+  A flowering plant whose aromatic rhizome is used extensively as a spice and in traditional remedies for digestive comfort.
+
+Traditional / Commonly Discussed Uses:
+  - Traditionally used for digestive and nausea comfort
+  - Common ingredient in herbal teas
+  - Reported use for general warmth/circulation support
+
+Safety & Precautions:
+  - May interact with blood-thinning medication
+  - High doses may cause heartburn
+  - Consult a doctor before use in gallstone conditions
+------------------------------------------------------------
+DISCLAIMER:
+Identification by AI does not confirm that a plant is safe to consume or suitable for treating any disease. Traditional/health information shown here is drawn from a locally stored reference dataset and is for general educational purposes only - it is not medical advice. Always consult a qualified professional before medicinal use of any plant.
+============================================================
