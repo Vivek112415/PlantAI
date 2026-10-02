@@ -376,5 +376,75 @@
     "image_path": "D:/Ginger plant/5.jpg",
     "predicted_plant": "Ginger",
     "confidence": 89.28
+  },
+  {
+    "timestamp": "2026-10-01 13:40:20",
+    "image_name": "11.jpg",
+    "image_path": "D:/Brahmi plants/11.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 36.66
+  },
+  {
+    "timestamp": "2026-10-01 13:40:21",
+    "image_name": "11.jpg",
+    "image_path": "D:/Brahmi plants/11.jpg",
+    "predicted_plant": "Mint",
+    "confidence": 36.66
+  },
+  {
+    "timestamp": "2026-10-01 13:40:38",
+    "image_name": "10.jpg",
+    "image_path": "D:/Brahmi plants/10.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 32.95
+  },
+  {
+    "timestamp": "2026-10-01 13:40:59",
+    "image_name": "2.jpg",
+    "image_path": "D:/curry leves/2.jpg",
+    "predicted_plant": "Curry Leaf",
+    "confidence": 33.95
+  },
+  {
+    "timestamp": "2026-10-01 13:41:15",
+    "image_name": "7.jpg",
+    "image_path": "D:/curry leves/7.jpg",
+    "predicted_plant": "Curry Leaf",
+    "confidence": 38.33
+  },
+  {
+    "timestamp": "2026-10-01 13:41:34",
+    "image_name": "16.jpg",
+    "image_path": "D:/Brahmi plants/16.jpg",
+    "predicted_plant": "Brahmi",
+    "confidence": 78.87
+  },
+  {
+    "timestamp": "2026-10-01 13:41:46",
+    "image_name": "15.jpg",
+    "image_path": "D:/Brahmi plants/15.jpg",
+    "predicted_plant": "Brahmi",
+    "confidence": 75.16
+  },
+  {
+    "timestamp": "2026-10-01 14:25:17",
+    "image_name": "10.jpg",
+    "image_path": "D:/Brahmi plants/10.jpg",
+    "predicted_plant": "Tulsi",
+    "confidence": 32.95
+  },
+  {
+    "timestamp": "2026-10-01 14:25:29",
+    "image_name": "13.jpg",
+    "image_path": "D:/Brahmi plants/13.jpg",
+    "predicted_plant": "Brahmi",
+    "confidence": 81.71
+  },
+  {
+    "timestamp": "2026-10-01 14:25:49",
+    "image_name": "16.jpg",
+    "image_path": "D:/Brahmi plants/16.jpg",
+    "predicted_plant": "Brahmi",
+    "confidence": 78.87
   }
 ]

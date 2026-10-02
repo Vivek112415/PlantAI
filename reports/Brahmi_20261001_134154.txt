@@ -1,0 +1,29 @@
+============================================================
+PlantAI - Recognition Report
+============================================================
+Date/Time      : 2026-10-01 13:41:46
+Image File     : 15.jpg
+Predicted Plant: Brahmi
+Confidence     : 75.16%
+------------------------------------------------------------
+Scientific Name : Bacopa monnieri
+Family          : Plantaginaceae
+Category        : Herb
+Parts Used      : Leaves, Whole plant
+
+Description:
+  A small creeping herb that thrives in wet, marshy areas, with succulent oblong leaves used in traditional cognitive-support formulations.
+
+Traditional / Commonly Discussed Uses:
+  - Traditionally used to support memory and focus
+  - Reported use in traditional relaxation formulations
+  - Used in traditional hair-care oils
+
+Safety & Precautions:
+  - May cause digestive upset in some individuals
+  - May interact with thyroid or sedative medication
+  - Effects may take weeks of consistent traditional use to notice
+------------------------------------------------------------
+DISCLAIMER:
+Identification by AI does not confirm that a plant is safe to consume or suitable for treating any disease. Traditional/health information shown here is drawn from a locally stored reference dataset and is for general educational purposes only - it is not medical advice. Always consult a qualified professional before medicinal use of any plant.
+============================================================
